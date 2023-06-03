@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.resultados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    background-color: #0090f5;
+    padding: 1rem;
+    border-radius: 10px;
+    justify-content: center;
+}
+.info-card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 15rem;
+}
+.formulario input{
+    border-radius: 10px;
+}
+.img-card{
+    width: 18rem;
+    filter: saturate(0);
+    transition: all 1s;
+}
+
+.img-card:hover{
+    filter: saturate(100%) ;
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.boton{
+    width: 9rem;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    transition: all 1s;
+}
+.boton:hover{
+    transform: scale(1.1);
+}
+
+.item-resultado{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#showColor{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    border: solid 0.5px black;
+    background-color: black;
+}
+.input{
+    padding-left: 7px;
+}
