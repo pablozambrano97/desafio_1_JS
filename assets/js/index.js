@@ -16,7 +16,7 @@ colorInput.addEventListener("change", (event)=>{
 });
 
 cantidadProduct.addEventListener("change", (event)=>{
-    productos= event.target.value;
+    productos= parseInt(event.target.value);
     console.log(productos);
 });
 
